@@ -1,12 +1,14 @@
-import './navbar.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-function Navbar (props)  {
+const NavBar = () => {
     return (
-        <div className='Navbar'>
-            <h1>This Navigation Bar</h1>
-            <h3>My name is {props.name}{props.lastname}</h3>
-        </div>
+        <nav style={{ backgroundColor: '#333', padding: '15px' }}>
+            <Link to="/" style={{ color: 'white', margin: '10px' }}>Home</Link>
+            <Link to="/about" style={{ color: 'white', margin: '10px' }}>About</Link>
+            <Link to="/contact" style={{ color: 'white', margin: '10px' }}>Contact Us</Link>
+        </nav>
     );
-}
+};
 
-export default Navbar;
+export default NavBar;

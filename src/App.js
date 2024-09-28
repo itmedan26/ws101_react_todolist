@@ -1,26 +1,26 @@
 import './App.css';
-//import Navbar from './components/Navbar/navbar';  
-//import Hero from './components/Hero/hero';
-//import About from './components/About/about';
-//import Contact from './components/Contact/contact';
-//import Footer from './components/Footer/footer';
-//import HandlingClass from './components/Hero/hero';
-//import HandingFunction from './components/HandingFunctions';
+import Navbar from './components/Navbar/navbar';  
+import Home from './components/Home/hero';
+import About from './components/About/about';
+import Contact from './components/Contact/contact';
+import Footer from './components/Footer/footer';
+import HandlingClass from './components/Hero/hero';
+import HandingFunction from './components/HandingFunctions';
 // import Biodata from './Biodata/biodata';
-import ToDoList from './ToDoListApp/todolist';
+// import ToDoList from './ToDoListApp/todolist';
 
 function App() {
   return (
     <div className="biodata">
-      {/*<Navbar name="Daniel" lastname="Punzalan" />
-      <Hero message="ILY"/>
+      *<Navbar name="Daniel" lastname="Punzalan" />
+      <Home message="ILY"/>
       <About />
       <Contact />
       <Footer />
       <HandingFunction />
       <HandlingClass />
-      <Biodata />*/}
-      <ToDoList />
+      {/*<Biodata /
+      <ToDoList />*/}
     </div>
   );
 }
